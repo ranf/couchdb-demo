@@ -17,4 +17,4 @@ curl -X PUT $HOST/_config/httpd/bind_address -d '"0.0.0.0"'
 curl -X PUT $HOST/_config/httpd/port -d '"8080"'
 
 #verify
-curl couchdb-demo-ranf.c9.io
+curl $C9_HOSTNAME # <workspace>-<username>.c9.io

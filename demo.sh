@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#can access futon, couchdb administration ui, at <worksapce>-<username>.c9.io (http://couchdb-demo-ranf.c9.io)
+#You can access futon, couchdb administration ui, at http://<worksapce>-<username>.c9.io/_utils
 
 #create a database named todos
 curl -X PUT 'http://127.0.0.1:8080/todos'

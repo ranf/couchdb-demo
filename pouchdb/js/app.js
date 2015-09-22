@@ -10,8 +10,8 @@
 
   var db = new PouchDB('todos');
 
-  // Replace with remote instance
-  var remoteCouch = 'https://couchdb-demo-ranf.c9.io:8080/todos';
+  // Replace with your remote instance
+  var remoteCouch = 'https://<workspace>-<username>.c9.io/todos';
 
   db.changes({
     since: 'now',
