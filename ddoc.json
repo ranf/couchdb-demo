@@ -1,0 +1,12 @@
+{
+    "_id" : "_design/ddoc",
+    "views" : {
+        "completed" : {
+            "map" : "function(doc){ if(doc.completed) emit(doc._id, null);/*key-value pair, but we don't need the value*/ }"
+        },
+        "completed_count":{
+            "map" : "function(doc){ if(doc.completed) emit(); }",
+            "reduce" : "_count"
+        }
+    }
+}
