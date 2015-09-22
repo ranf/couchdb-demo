@@ -1,7 +1,6 @@
 
 # Agenda
-----------------------------------------
-----------------------------------------
+
 
 ### Document-oriented Databases (10-15 minutes)
 * Video placeholder
