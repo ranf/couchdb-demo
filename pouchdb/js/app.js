@@ -39,7 +39,7 @@
     });
     //update page title
     db.query('ddoc/completed_count').then(function (res) {
-      var count = res && res.rows && res.rows[0] && res.rows[0].value;
+      var count = res && res.rows && res.rows.length > 0 && res.rows[0].value;
       document.title = (count ? '(' + count + ') ' : '') + 'PouchDB • TodoMVC';
     });
   }
