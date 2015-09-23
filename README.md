@@ -20,9 +20,9 @@
 * API documentation - http://docs.couchdb.org/en/1.6.1/api/index.html
 
 
-### Distributed Database systems (10-20 minutes)
+### Distributed Database Systems (10-20 minutes)
 * CAP Theorem video - https://www.youtube.com/watch?v=Jw1iFr4v58M.
-* Discussion - RDBMS/MongoDB/CouchDB. Mostly ignoring the video nad focusing on CouchDB single server master-master replication.
+* Discussion - RDBMS/MongoDB/CouchDB. Mostly ignoring the video and focusing on CouchDB single server master-master replication.
 
 
 ### PouchDB and CouchDB Replication (10-20 minutes)
