@@ -16,7 +16,7 @@
 
 
 ### CouchDB REST Demo (10-20 minutes)
-* Follow demo.sh to create a database, documents and views (simple map-reduce).
+* Follow `demo.sh` to create a database, documents and views (simple map-reduce).
 * API documentation - http://docs.couchdb.org/en/1.6.1/api/index.html
 
 
